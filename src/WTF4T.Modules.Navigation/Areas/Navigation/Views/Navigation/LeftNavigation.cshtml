@@ -1,0 +1,11 @@
+﻿@model ISitemapItem
+<nav>
+    <ul class="nav nav-sidebar">
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                <a href="@item.Url">@item.Title</a>
+            </li>
+        }
+    </ul>
+</nav>

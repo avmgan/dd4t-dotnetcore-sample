@@ -1,0 +1,411 @@
+﻿{
+  "RevisionDate": "2016-07-15T12:33:10",
+  "Filename": "all-articles",
+  "LastPublishedDate": "0001-01-01T00:00:00",
+  "PageTemplate": {
+    "FileExtension": "html",
+    "RevisionDate": "2016-07-15T12:32:38.637",
+    "MetadataFields": {
+      "includes": {
+        "Name": "includes",
+        "Values": [ "system/include/header", "system/include/footer", "system/include/content-tools", "system/include/left-navigation" ],
+        "NumericValues": [],
+        "DateTimeValues": [],
+        "LinkedComponentValues": [],
+        "FieldType": 0,
+        "KeywordValues": []
+      },
+      "view": {
+        "Name": "view",
+        "Values": [ "GeneralPage" ],
+        "NumericValues": [],
+        "DateTimeValues": [],
+        "LinkedComponentValues": [],
+        "FieldType": 0,
+        "KeywordValues": []
+      }
+    },
+    "Folder": {
+      "PublicationId": "tcm:0-298-1",
+      "Id": "tcm:298-8296-2",
+      "Title": "Templates"
+    },
+    "Publication": {
+      "Id": "tcm:0-298-1",
+      "Title": "400 Example Site"
+    },
+    "OwningPublication": {
+      "Id": "tcm:0-295-1",
+      "Title": "100 Master"
+    },
+    "Id": "tcm:298-23138-128",
+    "Title": "Content Page"
+  },
+  "MetadataFields": {},
+  "ComponentPresentations": [
+    {
+      "Component": {
+        "LastPublishedDate": "0001-01-01T00:00:00",
+        "RevisionDate": "2016-07-15T12:33:05",
+        "Schema": {
+          "RootElementName": "Article",
+          "Id": "tcm:298-23170-8",
+          "Title": "Article"
+        },
+        "Fields": {
+          "headline": {
+            "Name": "headline",
+            "Values": [ "All Articles" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "XPath": "tcm:Content/custom:Article/custom:headline",
+            "KeywordValues": []
+          },
+          "image": {
+            "Name": "image",
+            "Values": [],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [
+              {
+                "LastPublishedDate": "0001-01-01T00:00:00",
+                "RevisionDate": "2016-07-15T12:33:03.533",
+                "Schema": {
+                  "RootElementName": "undefined",
+                  "Id": "tcm:298-23141-8",
+                  "Title": "Image"
+                },
+                "Fields": {},
+                "MetadataFields": {},
+                "ComponentType": 0,
+                "Multimedia": {
+                  "Url": "/Preview/media/blueprint_tcm298-23325.jpg",
+                  "MimeType": "image/jpeg",
+                  "FileName": "blueprint.jpg",
+                  "FileExtension": "jpg",
+                  "Size": 1200817,
+                  "Width": 0,
+                  "Height": 0
+                },
+                "Categories": [],
+                "Version": 1,
+                "Id": "tcm:298-23325",
+                "Title": "blueprint"
+              }
+            ],
+            "FieldType": 5,
+            "XPath": "tcm:Content/custom:Article/custom:image",
+            "KeywordValues": []
+          },
+          "articleBody": {
+            "Name": "articleBody",
+            "Values": [],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "EmbeddedValues": [
+              {
+                "content": {
+                  "Name": "content",
+                  "Values": [ "<span xmlns=\"http://www.w3.org/1999/xhtml\">Sed dapibus tempus nunc, id sollicitudin ligula mattis in. Pellentesque quis purus lobortis, porttitor felis a, auctor felis. Phasellus posuere aliquet libero et vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In at felis vel risus facilisis ultrices tincidunt nec mauris. Praesent porttitor mi vitae lacus tristique, et hendrerit ante scelerisque. Phasellus sit amet venenatis lacus. Nunc vehicula ullamcorper pharetra. Proin hendrerit enim sed condimentum scelerisque. Maecenas accumsan orci id nisl congue consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque tristique quam tempus ligula iaculis malesuada. Quisque non lectus dui. Nunc luctus faucibus nulla quis pellentesque. Sed leo quam, auctor sit amet diam et, ultricies dignissim metus. Cras dignissim porttitor nisi sodales facilisis.</span>" ],
+                  "NumericValues": [],
+                  "DateTimeValues": [],
+                  "LinkedComponentValues": [],
+                  "FieldType": 2,
+                  "XPath": "tcm:Content/custom:Article/custom:articleBody[1]/custom:content",
+                  "KeywordValues": []
+                }
+              }
+            ],
+            "EmbeddedSchema": {
+              "RootElementName": "Paragraph",
+              "Id": "tcm:298-23169-8",
+              "Title": "Paragraph"
+            },
+            "FieldType": 4,
+            "XPath": "tcm:Content/custom:Article/custom:articleBody",
+            "KeywordValues": []
+          }
+        },
+        "MetadataFields": {
+          "standardMeta": {
+            "Name": "standardMeta",
+            "Values": [],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "EmbeddedValues": [
+              {
+                "description": {
+                  "Name": "description",
+                  "Values": [ "Cras vel justo semper, bibendum odio in, fringilla elit. Cras at nunc fringilla, porttitor mauris eget, pharetra purus. Sed elementum consectetur massa id auctor." ],
+                  "NumericValues": [],
+                  "DateTimeValues": [],
+                  "LinkedComponentValues": [],
+                  "FieldType": 1,
+                  "XPath": "tcm:Metadata/custom:Metadata/custom:standardMeta[1]/custom:description",
+                  "KeywordValues": []
+                },
+                "name": {
+                  "Name": "name",
+                  "Values": [ "View all articles" ],
+                  "NumericValues": [],
+                  "DateTimeValues": [],
+                  "LinkedComponentValues": [],
+                  "FieldType": 0,
+                  "XPath": "tcm:Metadata/custom:Metadata/custom:standardMeta[1]/custom:name",
+                  "KeywordValues": []
+                },
+                "introText": {
+                  "Name": "introText",
+                  "Values": [ "See the latest content published" ],
+                  "NumericValues": [],
+                  "DateTimeValues": [],
+                  "LinkedComponentValues": [],
+                  "FieldType": 0,
+                  "XPath": "tcm:Metadata/custom:Metadata/custom:standardMeta[1]/custom:introText",
+                  "KeywordValues": []
+                }
+              }
+            ],
+            "EmbeddedSchema": {
+              "RootElementName": "StandardMetadata",
+              "Id": "tcm:298-23139-8",
+              "Title": "Standard Metadata"
+            },
+            "FieldType": 4,
+            "XPath": "tcm:Metadata/custom:Metadata/custom:standardMeta",
+            "KeywordValues": []
+          }
+        },
+        "ComponentType": 1,
+        "Folder": {
+          "PublicationId": "tcm:0-298-1",
+          "Id": "tcm:298-8336-2",
+          "Title": "Articles"
+        },
+        "Categories": [],
+        "Version": 1,
+        "Publication": {
+          "Id": "tcm:0-298-1",
+          "Title": "400 Example Site"
+        },
+        "OwningPublication": {
+          "Id": "tcm:0-297-1",
+          "Title": "200 Example Content"
+        },
+        "Id": "tcm:298-23344",
+        "Title": "All Articles Intro"
+      },
+      "ComponentTemplate": {
+        "OutputFormat": "HTML Fragment",
+        "RevisionDate": "2016-07-15T12:32:52.517",
+        "MetadataFields": {
+          "view": {
+            "Name": "view",
+            "Values": [ "Article" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "KeywordValues": []
+          }
+        },
+        "Folder": {
+          "PublicationId": "tcm:0-298-1",
+          "Id": "tcm:298-8296-2",
+          "Title": "Templates"
+        },
+        "Publication": {
+          "Id": "tcm:0-298-1",
+          "Title": "400 Example Site"
+        },
+        "OwningPublication": {
+          "Id": "tcm:0-295-1",
+          "Title": "100 Master"
+        },
+        "Id": "tcm:298-23251-32",
+        "Title": "Article"
+      },
+      "IsDynamic": false,
+      "OrderOnPage": 0
+    },
+    {
+      "Component": {
+        "LastPublishedDate": "0001-01-01T00:00:00",
+        "RevisionDate": "2016-07-15T12:33:04",
+        "Schema": {
+          "RootElementName": "ContentQuery",
+          "Id": "tcm:298-23239-8",
+          "Title": "Content Query"
+        },
+        "Fields": {
+          "headline": {
+            "Name": "headline",
+            "Values": [ "All Articles" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "XPath": "tcm:Content/custom:ContentQuery/custom:headline",
+            "KeywordValues": []
+          }
+        },
+        "MetadataFields": {
+          "contentType": {
+            "Name": "contentType",
+            "Values": [],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 3,
+            "CategoryName": "Content Type",
+            "CategoryId": "tcm:298-8319-512",
+            "XPath": "tcm:Metadata/custom:Metadata/custom:contentType",
+            "KeywordValues": [
+              {
+                "Description": "",
+                "Key": "core.article",
+                "TaxonomyId": "tcm:298-8319-512",
+                "Path": "\\Content Type\\Article",
+                "ParentKeywords": [],
+                "MetadataFields": {},
+                "Id": "tcm:298-23207-1024",
+                "Title": "Article"
+              }
+            ]
+          },
+          "pageSize": {
+            "Name": "pageSize",
+            "Values": [],
+            "NumericValues": [ 5.0 ],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 8,
+            "XPath": "tcm:Metadata/custom:Metadata/custom:pageSize",
+            "KeywordValues": []
+          },
+          "sort": {
+            "Name": "sort",
+            "Values": [],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 3,
+            "CategoryName": "List Sort Type",
+            "CategoryId": "tcm:298-8307-512",
+            "XPath": "tcm:Metadata/custom:Metadata/custom:sort",
+            "KeywordValues": [
+              {
+                "Description": "",
+                "Key": "pubdate",
+                "TaxonomyId": "tcm:298-8307-512",
+                "Path": "\\List Sort Type\\Last Published Date",
+                "ParentKeywords": [],
+                "MetadataFields": {},
+                "Id": "tcm:298-23250-1024",
+                "Title": "Last Published Date"
+              }
+            ]
+          }
+        },
+        "ComponentType": 1,
+        "Folder": {
+          "PublicationId": "tcm:0-298-1",
+          "Id": "tcm:298-8336-2",
+          "Title": "Articles"
+        },
+        "Categories": [],
+        "Version": 1,
+        "Publication": {
+          "Id": "tcm:0-298-1",
+          "Title": "400 Example Site"
+        },
+        "OwningPublication": {
+          "Id": "tcm:0-297-1",
+          "Title": "200 Example Content"
+        },
+        "Id": "tcm:298-23335",
+        "Title": "All Articles Index"
+      },
+      "ComponentTemplate": {
+        "OutputFormat": "HTML Fragment",
+        "RevisionDate": "2016-07-15T12:32:52.993",
+        "MetadataFields": {
+          "controller": {
+            "Name": "controller",
+            "Values": [ "List" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "KeywordValues": []
+          },
+          "action": {
+            "Name": "action",
+            "Values": [ "List" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "KeywordValues": []
+          },
+          "view": {
+            "Name": "view",
+            "Values": [ "PagedList" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "KeywordValues": []
+          },
+          "regionView": {
+            "Name": "regionView",
+            "Values": [ "Main" ],
+            "NumericValues": [],
+            "DateTimeValues": [],
+            "LinkedComponentValues": [],
+            "FieldType": 0,
+            "KeywordValues": []
+          }
+        },
+        "Folder": {
+          "PublicationId": "tcm:0-298-1",
+          "Id": "tcm:298-8296-2",
+          "Title": "Templates"
+        },
+        "Publication": {
+          "Id": "tcm:0-298-1",
+          "Title": "400 Example Site"
+        },
+        "OwningPublication": {
+          "Id": "tcm:0-295-1",
+          "Title": "100 Master"
+        },
+        "Id": "tcm:298-23256-32",
+        "Title": "Paged List"
+      },
+      "IsDynamic": false,
+      "OrderOnPage": 0
+    }
+  ],
+  "StructureGroup": {
+    "PublicationId": "tcm:0-298-1",
+    "Id": "tcm:298-8351-4",
+    "Title": "010 Articles"
+  },
+  "Categories": [],
+  "Version": 1,
+  "Publication": {
+    "Id": "tcm:0-298-1",
+    "Title": "400 Example Site"
+  },
+  "OwningPublication": {
+    "Id": "tcm:0-298-1",
+    "Title": "400 Example Site"
+  },
+  "Id": "tcm:298-23376-64",
+  "Title": "010 All Articles"
+}

@@ -1,0 +1,212 @@
+﻿{
+  "Title": "Home",
+  "Url": "/",
+  "Id": "tcm:298-39-4",
+  "Type": "StructureGroup",
+  "Items": [
+    {
+      "Title": "Home",
+      "Url": "/index",
+      "Id": "tcm:298-23303-64",
+      "Type": "Page",
+      "Items": [],
+      "PublishedDate": "",
+      "Visible": true
+    },
+    {
+      "Title": "Articles",
+      "Url": "/articles",
+      "Id": "tcm:298-8351-4",
+      "Type": "StructureGroup",
+      "Items": [
+        {
+          "Title": "Articles",
+          "Url": "/articles/index",
+          "Id": "tcm:298-23356-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "View all articles",
+          "Url": "/articles/all-articles",
+          "Id": "tcm:298-23376-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "News",
+          "Url": "/articles/news",
+          "Id": "tcm:298-8354-4",
+          "Type": "StructureGroup",
+          "Items": [
+            {
+              "Title": "News Index",
+              "Url": "/articles/news/index",
+              "Id": "tcm:298-23367-64",
+              "Type": "Page",
+              "Items": [],
+              "PublishedDate": "",
+              "Visible": true
+            },
+            {
+              "Title": "Cras vel justo semp",
+              "Url": "/articles/news/news1",
+              "Id": "tcm:298-23371-64",
+              "Type": "Page",
+              "Items": [],
+              "PublishedDate": "",
+              "Visible": false
+            },
+            {
+              "Title": "Praesent facilisis consectet",
+              "Url": "/articles/news/news2",
+              "Id": "tcm:298-23368-64",
+              "Type": "Page",
+              "Items": [],
+              "PublishedDate": "",
+              "Visible": false
+            },
+            {
+              "Title": "Fusce ullamcorper",
+              "Url": "/articles/news/news3",
+              "Id": "tcm:298-23370-64",
+              "Type": "Page",
+              "Items": [],
+              "PublishedDate": "",
+              "Visible": false
+            },
+            {
+              "Title": "Aliquam quis egesta",
+              "Url": "/articles/news/news4",
+              "Id": "tcm:298-23380-64",
+              "Type": "Page",
+              "Items": [],
+              "PublishedDate": "",
+              "Visible": false
+            }
+          ],
+          "PublishedDate": null,
+          "Visible": true
+        }
+      ],
+      "PublishedDate": null,
+      "Visible": true
+    },
+    {
+      "Title": "Further Information",
+      "Url": "/further-information",
+      "Id": "tcm:298-8352-4",
+      "Type": "StructureGroup",
+      "Items": [
+        {
+          "Title": "Further Information",
+          "Url": "/further-information/index",
+          "Id": "tcm:298-23374-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "FAQ",
+          "Url": "/further-information/faq",
+          "Id": "tcm:298-23361-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Image Library",
+          "Url": "/further-information/image-library",
+          "Id": "tcm:298-23369-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Downloads",
+          "Url": "/further-information/downloads",
+          "Id": "tcm:298-23378-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        }
+      ],
+      "PublishedDate": null,
+      "Visible": true
+    },
+    {
+      "Title": "About",
+      "Url": "/about",
+      "Id": "tcm:298-8353-4",
+      "Type": "StructureGroup",
+      "Items": [
+        {
+          "Title": "Company Information",
+          "Url": "/about/index",
+          "Id": "tcm:298-23373-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Head Office",
+          "Url": "/about/office-location",
+          "Id": "tcm:298-23375-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Contact information",
+          "Url": "/about/contact",
+          "Id": "tcm:298-23360-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Terms of use",
+          "Url": "/about/terms",
+          "Id": "tcm:298-23372-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        },
+        {
+          "Title": "Privacy Policy",
+          "Url": "/about/privacy",
+          "Id": "tcm:298-23379-64",
+          "Type": "Page",
+          "Items": [],
+          "PublishedDate": "",
+          "Visible": true
+        }
+      ],
+      "PublishedDate": null,
+      "Visible": false
+    },
+    {
+      "Title": "Sitemap",
+      "Url": "/sitemap",
+      "Id": "tcm:298-23377-64",
+      "Type": "Page",
+      "Items": [],
+      "PublishedDate": "",
+      "Visible": false
+    }
+  ],
+  "PublishedDate": null,
+  "Visible": false
+}

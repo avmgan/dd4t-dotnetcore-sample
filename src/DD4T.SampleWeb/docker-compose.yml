@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  dd4t.sampleweb:
+    image: user/dd4t.sampleweb${TAG}
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80"

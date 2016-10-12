@@ -1,0 +1,9 @@
+﻿@model ISitemapItem
+<ul class="nav navbar-nav main-nav">
+    @foreach (var item in Model.Items)
+    {
+        <li class="local">
+            <a href="@item.Url">@item.Title</a>
+        </li>
+    }
+</ul>
